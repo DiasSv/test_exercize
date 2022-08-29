@@ -8,10 +8,10 @@ from selenium.webdriver.chrome.options import Options  # Возможность 
 from webdriver_manager.firefox import GeckoDriverManager
 from webdriver_manager.chrome import ChromeDriverManager
 
-
 import time
 import math
 import pytest
+
 
 def pytest_addoption(parser):
     parser.addoption('--browser_name', action='store', default="chrome",
@@ -40,4 +40,3 @@ def browser(request):
     yield browser
     print("\n browser quit")
     browser.quit()
-
