@@ -16,3 +16,7 @@ def test_search_only_spaces(browser):
     page.open()
     page.search_only_spaces_without_error()
 
+def test_search_max_lenght(browser):
+    page = FunctionTestCaseSearch(browser, link)
+    page.open()
+    page.search_max_lenght_misspell_message()
