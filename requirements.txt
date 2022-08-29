@@ -12,3 +12,4 @@ urllib3==1.26.3
 wcwidth==0.2.5
 webdriver_manager
 pytest-rerunfailures
+allure-pytest
