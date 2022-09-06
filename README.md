@@ -1,7 +1,7 @@
 
 В данном репозитории находятся файлы и решения для тестового задания от компании Nexign - https://www.notion.so/4efb951fa25f4aa48d3a62a6176f3e9a
 
-Для проверки 1 задания подгтовлена краткая инструкция (см.ниже)
+Для проверки 1 задания подгтовлена краткая инструкция (см.ниже), сделано несколько тестов, цели сделать хорошее покрытие тестами не преследовалось
 Для проверки 2 задания необходимо найти файл "test_exercise.py", запустить файл, ввести входные данные и получить валидные выходные данные
 
 
@@ -38,5 +38,5 @@ cd \path\to\new_virtual_env\Scripts
 pip install -r \path\to\requirements.txt
 7. Убедитесь, что путь к chromedriver.exe прописан в PATH
 8. Запустите тесты командой:
-pytest -v --tb=line --language=en -m need_review \path\to\test_product_page.py
+pytest -v --tb=line --language=ru \path\to\test_yandex_search_form.py
 9. Проверьте, что все тесты прошли успешно.
