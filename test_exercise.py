@@ -18,16 +18,13 @@ def data_preparation():
     # Производим фильтрацию элементов списка. Здесь изначально хотелось осуществить логику с помощью регулярных выражений,
     # но они менее удобочитаемы
 
-    def convert_letters():
-        for i in filter_letters:
-            answer = string.ascii_lowercase.index(i) + 1  # В данном случае использовался импорт модуля string и задача
-        # осуществлялась с помощью методов модуля. !!!НО!!! также данную задачу можно решить и без модуля, например:
-        # print(ord('a') - 96)
-            print(answer)
-        return answer
+    for i in filter_letters:
+        answer = string.ascii_lowercase.index(i) + 1  # В данном случае использовался импорт модуля string и задача
+    # осуществлялась с помощью методов модуля. !!!НО!!! также данную задачу можно решить и без модуля, например:
+    # print(ord('a') - 96)
+        print(answer)
+    return answer
 
-
-    convert_letters()
 
 
 data_preparation()
